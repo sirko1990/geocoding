@@ -1,0 +1,32 @@
+{
+  "name": "Geocoding",
+  "description": "The Geocoding wrapper",
+  "license": "MIT",
+  "type": "project",
+  "require": {
+    "php": ">=5.5.9",
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "require-dev": {
+
+  },
+  "autoload": {
+    "classmap": [
+      "database",
+      "Library"
+    ],
+    "psr-2": {
+      "App\\": "app/"
+    }
+  },
+  "autoload-dev": {
+    "classmap": [
+      "tests/TestCase.php"
+    ]
+  },
+  "scripts": {
+    "post-create-project-cmd": [
+      "php artisan vendor:publish"
+    ]
+  }
+}
