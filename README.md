@@ -14,7 +14,7 @@ GEOCODING
 
 - Set into require section of coposer.json next lines
   ```
-  "sirko1990/geocoding": "0.0.3"
+  "sirko1990/geocoding": "0.0.4"
   ```
 
 - Add Geocoding service container to config/app.php (providers section)
