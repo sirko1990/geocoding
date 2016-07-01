@@ -1,5 +1,5 @@
 {
-  "name": "Geocoding",
+  "name": "sirko1990/geocoding",
   "description": "The Geocoding wrapper",
   "license": "MIT",
   "type": "project",
@@ -11,12 +11,8 @@
 
   },
   "autoload": {
-    "classmap": [
-      "database",
-      "Library"
-    ],
-    "psr-2": {
-      "App\\": "app/"
+    "psr-1": {
+      "Geocoding\\": "src/"
     }
   },
   "autoload-dev": {
