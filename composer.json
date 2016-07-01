@@ -7,19 +7,11 @@
     "php": ">=5.5.9",
     "guzzlehttp/guzzle": "~6.0"
   },
-  "require-dev": {
 
-  },
   "autoload": {
-    "psr-1": {
-      "Geocoding\\": "src/"
-    }
+    "classmap": ["src/"]
   },
-  "autoload-dev": {
-    "classmap": [
-      "tests/TestCase.php"
-    ]
-  },
+
   "scripts": {
     "post-create-project-cmd": [
       "php artisan vendor:publish"
